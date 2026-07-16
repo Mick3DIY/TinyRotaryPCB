@@ -1,17 +1,3 @@
-# TinyRotaryPCB
-
-A tiny PCB (with resistors) for the Alps-Alpine EC11E rotary encoders
-
-## Printed Circuit Board (PCB) :
-
-The schematic and PCB are made with [KiCad](https://www.kicad.org) version 9 ([kicad](https://github.com/Mick3DIY/MultiPicoBox/tree/main/kicad) folder).
-
-This PCB was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit) to set a panel (panelization) of 2x2 boards. :star:
-(Please follow the detailed installation guide that covers installation based on your platform)
-
-My shell script to easily generate panels… :laughing:
-
-```shell
 #!/bin/bash
 # TinyRotaryPCB with KiCad and KiKit plugin for PCB panelization
 # GitHub project : https://github.com/Mick3DIY/TinyRotaryPCB
@@ -70,15 +56,3 @@ else
     echo "Error : Panelization failed"
     exit 1
 fi
-```
-
-## Documentation :
-
-AlpsAlpine 11mm Size Metal Shaft Type EC11E Series :
-* https://tech.alpsalpine.com/e/products/category/encorders/sub/01/series/ec11e/
-
-
-> [!NOTE]
-> Big thanks to the [KiCad](https://www.kicad.org) and plugins communities. :heart:
-
-Happy soldering & have fun ! :partying_face:
