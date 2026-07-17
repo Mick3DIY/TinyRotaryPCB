@@ -1,0 +1,90 @@
+(version 1)
+
+(rule "Board_0-Max Drill Hole Size PTH"
+    (constraint hole_size (max 5.6mm))
+    (condition "A.Pad_Type == 'Through-hole'"))
+
+#----------------------------------------------------------------------------------------------------
+# We dont support micro or buried vias
+
+(rule "Board_0-Disallow buried via"
+   (constraint disallow buried_via))
+
+(rule "Board_0-Disallow micro via"
+   (constraint disallow micro_via))
+
+#----------------------------------------------------------------------------------------------------
+# The Soldermask is pulled back by a bit to account for slight missalignment during manufacturing. 
+# We do this on our own, please keep the soldermask margin set to 0. 
+ 
+(rule "Board_0-Disallow solder mask margin overrides"
+    (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null")
+    (condition "A.Type == 'Pad'"))
+
+#----------------------------------------------------------------------------------------------------
+(rule "Board_1-Max Drill Hole Size PTH"
+    (constraint hole_size (max 5.6mm))
+    (condition "A.Pad_Type == 'Through-hole'"))
+
+#----------------------------------------------------------------------------------------------------
+# We dont support micro or buried vias
+
+(rule "Board_1-Disallow buried via"
+   (constraint disallow buried_via))
+
+(rule "Board_1-Disallow micro via"
+   (constraint disallow micro_via))
+
+#----------------------------------------------------------------------------------------------------
+# The Soldermask is pulled back by a bit to account for slight missalignment during manufacturing. 
+# We do this on our own, please keep the soldermask margin set to 0. 
+ 
+(rule "Board_1-Disallow solder mask margin overrides"
+    (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null")
+    (condition "A.Type == 'Pad'"))
+
+#----------------------------------------------------------------------------------------------------
+(rule "Board_2-Max Drill Hole Size PTH"
+    (constraint hole_size (max 5.6mm))
+    (condition "A.Pad_Type == 'Through-hole'"))
+
+#----------------------------------------------------------------------------------------------------
+# We dont support micro or buried vias
+
+(rule "Board_2-Disallow buried via"
+   (constraint disallow buried_via))
+
+(rule "Board_2-Disallow micro via"
+   (constraint disallow micro_via))
+
+#----------------------------------------------------------------------------------------------------
+# The Soldermask is pulled back by a bit to account for slight missalignment during manufacturing. 
+# We do this on our own, please keep the soldermask margin set to 0. 
+ 
+(rule "Board_2-Disallow solder mask margin overrides"
+    (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null")
+    (condition "A.Type == 'Pad'"))
+
+#----------------------------------------------------------------------------------------------------
+(rule "Board_3-Max Drill Hole Size PTH"
+    (constraint hole_size (max 5.6mm))
+    (condition "A.Pad_Type == 'Through-hole'"))
+
+#----------------------------------------------------------------------------------------------------
+# We dont support micro or buried vias
+
+(rule "Board_3-Disallow buried via"
+   (constraint disallow buried_via))
+
+(rule "Board_3-Disallow micro via"
+   (constraint disallow micro_via))
+
+#----------------------------------------------------------------------------------------------------
+# The Soldermask is pulled back by a bit to account for slight missalignment during manufacturing. 
+# We do this on our own, please keep the soldermask margin set to 0. 
+ 
+(rule "Board_3-Disallow solder mask margin overrides"
+    (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null")
+    (condition "A.Type == 'Pad'"))
+
+#----------------------------------------------------------------------------------------------------

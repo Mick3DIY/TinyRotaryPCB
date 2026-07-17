@@ -1,15 +1,26 @@
 # TinyRotaryPCB
 
-A tiny PCB (with resistors) for the Alps-Alpine EC11E rotary encoders
+A tiny PCB (with resistors) for the BOURNS PEC11R rotary encoder
 
 ## Printed Circuit Board (PCB) :
 
-The schematic and PCB are made with [KiCad](https://www.kicad.org) version 9 ([kicad](https://github.com/Mick3DIY/MultiPicoBox/tree/main/kicad) folder).
+The schematic and PCB are made with [KiCad](https://www.kicad.org) version 9.
 
-This PCB was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit) to set a panel (panelization) of 2x2 boards. :star:
+:bulb: All important parameters are stored in the schematic or PCB editors **text variables**.
+
+This PCB was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit) to set a panel (panelization). :star:
+
 (Please follow the detailed installation guide that covers installation based on your platform)
 
-My shell script to easily generate panels… :laughing:
+The TinyRotaryPCB itself with dimensions (mm) in [kicad](kicad/) folder :
+
+![Single TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_single.png)
+
+The best panelization option (2x2 boards) with dimensions (mm) in [kicad/panel](kicad/panel/) folder :
+
+![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_panel_2x2.png)
+
+My shell script to easily generate panels… :laughing: Also in [kicad](kicad/) folder.
 
 ```shell
 #!/bin/bash
@@ -74,8 +85,9 @@ fi
 
 ## Documentation :
 
-AlpsAlpine 11mm Size Metal Shaft Type EC11E Series :
-* https://tech.alpsalpine.com/e/products/category/encorders/sub/01/series/ec11e/
+BOURNS PEC11R Series 12 mm incremental encoder (PEC11R-4220F-S0024) :
+* https://www.bourns.com/resources/rohs/encoders/contacting-encoders
+* https://www.bourns.com/docs/product-datasheets/pec11r.pdf
 
 
 > [!NOTE]
