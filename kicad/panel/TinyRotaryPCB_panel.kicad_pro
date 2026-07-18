@@ -823,6 +823,7 @@
   "sheets": [],
   "text_variables": {
     "PCB_VERSION": "V1.00",
+    "PROJECT_LINK": "Main project : https://github.com/Mick3DIY/TinyRotaryPCB",
     "PROJECT_TITLE": "TinyRotaryPCB",
     "SCHEMATIC_VERSION": "V1.00"
   }

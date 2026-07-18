@@ -4,7 +4,7 @@ A tiny PCB (with resistors) for the BOURNS PEC11R rotary encoder
 
 ## Printed Circuit Board (PCB) :
 
-The schematic and PCB are made with [KiCad](https://www.kicad.org) version 9.
+As part of an educational project, the schematic and PCB are made with [KiCad](https://www.kicad.org) version 9.
 
 :bulb: All important parameters are stored in the schematic or PCB editors **text variables**.
 
@@ -12,15 +12,23 @@ This PCB was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/K
 
 (Please follow the detailed installation guide that covers installation based on your platform)
 
-The TinyRotaryPCB itself with dimensions (mm) in [kicad](kicad/) folder :
+The TinyRotaryPCB itself with the encoder (in reverse side) and dimensions (mm) in [kicad](kicad/) folder :
 
 ![Single TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_single.png)
 
-The best panelization option (2x2 boards) with dimensions (mm) in [kicad/panel](kicad/panel/) folder :
+The best panelization option (2x2 boards with stencil) and dimensions (mm) in [kicad/panel](kicad/panel/) folder :
 
 ![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_panel_2x2.png)
 
-My shell script to easily generate panels… :laughing: Also in [kicad](kicad/) folder.
+Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
+
+Other useful plugins for KiCad :
+* AISLER Push for KiCad : https://github.com/aislerhq
+* Interactive HTML BOM : https://github.com/openscopeproject/InteractiveHtmlBom
+* Board2Pdf : https://gitlab.com/dennevi/Board2Pdf
+* Solarized Dark Theme : https://github.com/pointhi/kicad-color-schemes
+
+The shell script to easily generate panels… :laughing: Also in [kicad](kicad/) folder.
 
 ```shell
 #!/bin/bash
@@ -82,6 +90,8 @@ else
     exit 1
 fi
 ```
+
+More panelization examples in KiKit plugin documentation : https://yaqwsx.github.io/KiKit/latest/panelization/examples/
 
 ## Documentation :
 

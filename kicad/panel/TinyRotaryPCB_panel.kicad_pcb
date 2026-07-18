@@ -11,6 +11,7 @@
 		(title "${PROJECT_TITLE}")
 		(date "2026-07-17")
 		(rev "${PCB_VERSION}")
+		(comment 2 "${PROJECT_LINK}")
 		(comment 4 "AISLER Project ID: GGFDMGSD")
 	)
 	(layers
@@ -121,6 +122,7 @@
 		)
 	)
 	(property "PCB_VERSION" "V1.00")
+	(property "PROJECT_LINK" "Main project : https://github.com/Mick3DIY/TinyRotaryPCB")
 	(property "PROJECT_TITLE" "TinyRotaryPCB")
 	(property "SCHEMATIC_VERSION" "V1.00")
 	(net 0 "")

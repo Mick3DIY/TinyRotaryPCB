@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "${PROJECT_TITLE}")
-		(date "2026-07-17")
+		(date "2026-07-18")
 		(rev "${SCHEMATIC_VERSION}")
+		(comment 2 "${PROJECT_LINK}")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x05_Pin"
