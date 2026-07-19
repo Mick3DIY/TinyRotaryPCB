@@ -93,6 +93,12 @@ fi
 
 More panelization examples in KiKit plugin documentation : https://yaqwsx.github.io/KiKit/latest/panelization/examples/
 
+## TODO :
+
+* Add PDF file for the PCB panelization to check dimensions, rotary encoder pads
+* Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT, switch signals
+* Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :thumbsup:
+
 ## Documentation :
 
 BOURNS PEC11R Series 12 mm incremental encoder (PEC11R-4220F-S0024) :
