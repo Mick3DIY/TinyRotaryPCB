@@ -10,8 +10,8 @@ OUTPUT_DIR="panel"
 OUTPUT_FILE="${OUTPUT_DIR}/TinyRotaryPCB_panel.kicad_pcb"
 
 # Layout parameters, by default 2x2 -> panelize.sh <rows> <cols> parameters
-LAYOUT_ROWS=${1:-2}
-LAYOUT_COLS=${2:-2}
+LAYOUT_ROWS="${1:-2}"
+LAYOUT_COLS="${2:-2}"
 LAYOUT_SPACE="2mm"
 
 # Tab parameters
@@ -36,7 +36,7 @@ TEXT_JUSTIFY="hjustify: center; vjustify: center;"
 POST_MILLRADIUS="1mm"
 
 # Ensure output directory exist
-mkdir -p "$OUTPUT_DIR"
+mkdir -p "${OUTPUT_DIR}"
 
 # Kikit command with all parameters
 kikit panelize \
@@ -47,11 +47,11 @@ kikit panelize \
     --text "simple; text: {boardTitle} {boardRevision} ${LAYOUT_COLS}x${LAYOUT_ROWS}; anchor: mt; voffset: ${TEXT_VOFFSET_POS}; height: ${TEXT_HEIGHT}; ${TEXT_JUSTIFY}" \
     --text2 "simple; text: Created on {boardDate}; anchor: mb; voffset: ${TEXT_VOFFSET_NEG}; height: ${TEXT_HEIGHT}; ${TEXT_JUSTIFY}" \
     --post "millradius: ${POST_MILLRADIUS}" \
-    "$INPUT_FILE" "$OUTPUT_FILE"
+    "${INPUT_FILE}" "${OUTPUT_FILE}"
 
 # Check if the command succeeded
 if [ $? -eq 0 ]; then
-    echo "Panelization successful : $OUTPUT_FILE"
+    echo "Panelization successful : ${OUTPUT_FILE}"
 else
     echo "Error : Panelization failed"
     exit 1

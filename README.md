@@ -4,19 +4,15 @@ A tiny PCB (with resistors) for the BOURNS PEC11R rotary encoder
 
 ## Printed Circuit Board (PCB) :
 
-As part of an educational project, the schematic and PCB are made with [KiCad](https://www.kicad.org) version 9.
+As part of an educational project, the schematic and PCB are made with [KiCad](https://www.kicad.org) version 9 ([kicad](kicad/) folder).
 
-:bulb: All important parameters are stored in the schematic or PCB editors **text variables**.
+:bulb: All important parameters are stored in the schematic/PCB editors **text variables** (common project variables).
 
-This PCB was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit) to set a panel (panelization). :star:
-
-(Please follow the detailed installation guide that covers installation based on your platform)
-
-The TinyRotaryPCB itself with the encoder (in reverse side) and dimensions (mm) in [kicad](kicad/) folder :
+The TinyRotaryPCB itself with the rotary encoder (in reverse side for panel mount), dimensions (mm) :
 
 ![Single TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_single.png)
 
-The best panelization option (2x2 boards with stencil) and dimensions (mm) in [kicad/panel](kicad/panel/) folder :
+The panelization option (2x2 boards with stencil) was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit), dimensions (mm) in [kicad/panel](kicad/panel/) folder :
 
 ![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_panel_2x2.png)
 
@@ -43,8 +39,8 @@ OUTPUT_DIR="panel"
 OUTPUT_FILE="${OUTPUT_DIR}/TinyRotaryPCB_panel.kicad_pcb"
 
 # Layout parameters, by default 2x2 -> panelize.sh <rows> <cols> parameters
-LAYOUT_ROWS=${1:-2}
-LAYOUT_COLS=${2:-2}
+LAYOUT_ROWS="${1:-2}"
+LAYOUT_COLS="${2:-2}"
 LAYOUT_SPACE="2mm"
 
 # Tab parameters
@@ -69,7 +65,7 @@ TEXT_JUSTIFY="hjustify: center; vjustify: center;"
 POST_MILLRADIUS="1mm"
 
 # Ensure output directory exist
-mkdir -p "$OUTPUT_DIR"
+mkdir -p "${OUTPUT_DIR}"
 
 # Kikit command with all parameters
 kikit panelize \
@@ -80,11 +76,11 @@ kikit panelize \
     --text "simple; text: {boardTitle} {boardRevision} ${LAYOUT_COLS}x${LAYOUT_ROWS}; anchor: mt; voffset: ${TEXT_VOFFSET_POS}; height: ${TEXT_HEIGHT}; ${TEXT_JUSTIFY}" \
     --text2 "simple; text: Created on {boardDate}; anchor: mb; voffset: ${TEXT_VOFFSET_NEG}; height: ${TEXT_HEIGHT}; ${TEXT_JUSTIFY}" \
     --post "millradius: ${POST_MILLRADIUS}" \
-    "$INPUT_FILE" "$OUTPUT_FILE"
+    "${INPUT_FILE}" "${OUTPUT_FILE}"
 
 # Check if the command succeeded
 if [ $? -eq 0 ]; then
-    echo "Panelization successful : $OUTPUT_FILE"
+    echo "Panelization successful : ${OUTPUT_FILE}"
 else
     echo "Error : Panelization failed"
     exit 1
@@ -95,13 +91,13 @@ More panelization examples in KiKit plugin documentation : https://yaqwsx.github
 
 ## TODO :
 
-* Add PDF file for the PCB panelization to check dimensions, rotary encoder pads
-* Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT, switch signals
+* Add PDF file for the panelization to check dimensions, rotary encoder pads
+* Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT and switch signals
 * Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :thumbsup:
 
 ## Documentation :
 
-BOURNS PEC11R Series 12 mm incremental encoder (PEC11R-4220F-S0024) :
+BOURNS PEC11R Series 12 mm incremental rotary encoder (PEC11R-4220F-S0024) :
 * https://www.bourns.com/resources/rohs/encoders/contacting-encoders
 * https://www.bourns.com/docs/product-datasheets/pec11r.pdf
 
