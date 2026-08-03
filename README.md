@@ -1,6 +1,10 @@
+<picture>
+    <img alt="MadeForBournsPec11r(forthebadge.com)" src="assets/made-for-bourns-pec11r.svg">
+</picture>
+
 # TinyRotaryPCB
 
-A tiny PCB (with resistors) for the BOURNS PEC11R rotary encoder
+A tiny PCB (with surface resistors) for the BOURNS PEC11R rotary encoder.
 
 ## Printed Circuit Board (PCB) :
 
@@ -19,12 +23,12 @@ The panelization option (2x2 boards with stencil) was generated with the KiCad p
 Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
 
 Other useful plugins for KiCad :
-* AISLER Push for KiCad : https://github.com/aislerhq
+* AISLER Push for KiCad : https://github.com/aislerhq (with AISLER repository to always get the latest updates)
 * Interactive HTML BOM : https://github.com/openscopeproject/InteractiveHtmlBom
 * Board2Pdf : https://gitlab.com/dennevi/Board2Pdf
 * Solarized Dark Theme : https://github.com/pointhi/kicad-color-schemes
 
-The shell script to easily generate panels… :laughing: Also in [kicad](kicad/) folder.
+The shell script to easily generate panels (in [kicad](kicad/) folder)… :laughing:
 
 ```shell
 #!/bin/bash
@@ -91,9 +95,9 @@ More panelization examples in KiKit plugin documentation : https://yaqwsx.github
 
 ## TODO :
 
-* Add PDF file for the panelization to check dimensions, rotary encoder pads
-* Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT and switch signals
-* Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :thumbsup:
+- [ ] Add PDF file for the panelization to check dimensions, rotary encoder pads
+- [ ] Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT and switch signals
+- [ ] Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :thumbsup:
 
 ## Documentation :
 
