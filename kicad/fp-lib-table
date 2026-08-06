@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Library.pretty")(options "")(descr ""))
   (lib (name "RotaryEncoders_PEC11R")(type "KiCad")(uri "${KIPRJMOD}/Libraries/RotaryEncoders_PEC11R.pretty")(options "")(descr ""))
+  (lib (name "PinHeader_1x05_P2.54mm_H_W_S")(type "KiCad")(uri "${KIPRJMOD}/Libraries/PinHeader_1x05_P2.54mm_H_W_S")(options "")(descr ""))
+  (lib (name "PinHeader_1x05_P2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/PinHeader_1x05_P2.pretty")(options "")(descr ""))
 )

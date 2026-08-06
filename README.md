@@ -14,11 +14,11 @@ As part of an educational project, the schematic and PCB are made with [KiCad](h
 
 The TinyRotaryPCB itself with the rotary encoder (in reverse side for panel mount), dimensions (mm) :
 
-![Single TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_single.png)
+![Single TinyRotaryPCB](assets/TinyRotaryPCB_2026-08-06_single.png)
 
 The panelization option (2x2 boards with stencil) was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit), dimensions (mm) in [kicad/panel](kicad/panel/) folder :
 
-![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_2026-07-17_panel_2x2.png)
+![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_2026-08-06_panel_2x2.png)
 
 Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
 
@@ -95,7 +95,7 @@ More panelization examples in KiKit plugin documentation : https://yaqwsx.github
 
 ## TODO :
 
-- [ ] Add PDF file for the panelization to check dimensions, rotary encoder pads
+- [ ] Add PDF files for the schematic, PCBs (single, panelization)
 - [ ] Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT and switch signals
 - [ ] Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :thumbsup:
 

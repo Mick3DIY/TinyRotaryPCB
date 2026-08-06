@@ -1772,7 +1772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "PinHeader_1x05_P2.54mm_H_W_S:PinHeader_1x05_P2.54mm_Horizontal_Without_Silkscreen"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -1790,7 +1790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "Generic connector, single row, 01x05, without silkscreen (minimal)"
 			(at 109.22 92.71 0)
 			(effects
 				(font
