@@ -95,7 +95,7 @@ More panelization examples in KiKit plugin documentation : https://yaqwsx.github
 
 ## TODO :
 
-- [ ] Add PDF files for the schematic, PCBs (single, panelization)
+- [x] Add PDF files for the schematic, PCBs (single, panelization)
 - [ ] Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT and switch signals
 - [ ] Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :thumbsup:
 
