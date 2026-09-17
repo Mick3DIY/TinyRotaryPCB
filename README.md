@@ -93,11 +93,20 @@ fi
 
 More panelization examples in KiKit plugin documentation : https://yaqwsx.github.io/KiKit/latest/panelization/examples/
 
+## Logic analyser with the rotary encoder :
+
+To understand how a rotary encoder outputs works, it is useful to visualise it with a software/hardware logic analysers.
+
+Here an example with the same schematic (pins A, B, SW) in [Sigrok](https://sigrok.org) and PulseView softwares :
+
+![PulseViewExample](assets/TinyRotaryPCB_PulseView.png)
+
 ## TODO :
 
 - [x] Add PDF files for the schematic, PCBs (single, panelization)
-- [ ] Add a screenshot from the logic analyser [Sigrok](https://sigrok.org/) with CLK/DT and switch signals
-- [ ] Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :thumbsup:
+- [x] Add a screenshot from the logic analyser [Sigrok](https://sigrok.org)
+- [x] Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel
+- [ ] Add more files and examples, any ideas ? :laughing:
 
 ## Documentation :
 
@@ -105,8 +114,12 @@ BOURNS PEC11R Series 12 mm incremental rotary encoder (PEC11R-4220F-S0024) :
 * https://www.bourns.com/resources/rohs/encoders/contacting-encoders
 * https://www.bourns.com/docs/product-datasheets/pec11r.pdf
 
+Sigrok, PulseView softwares, all cross-platform : https://sigrok.org :clap:
+
+Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel : https://www.elektor.fr/products/logic-analyzers-in-practice-e-book :ok_hand:
+
 
 > [!NOTE]
-> Big thanks to the [KiCad](https://www.kicad.org) and plugins communities. :heart:
+> Big thanks to the open-source, [KiCad](https://www.kicad.org) and plugins communities. :heart:
 
 Happy soldering & have fun ! :partying_face:
