@@ -95,7 +95,7 @@ More panelization examples in KiKit plugin documentation : https://yaqwsx.github
 
 ## Logic analyser with the rotary encoder :
 
-To understand how a rotary encoder outputs works, it is useful to visualise it with a software/hardware logic analysers.
+To understand how a rotary encoder "pulses" works, it is useful to visualise it with a software/hardware logic analysers.
 
 Here an example with the same schematic (pins A, B, SW) in [Sigrok](https://sigrok.org) and PulseView softwares :
 
@@ -116,7 +116,8 @@ BOURNS PEC11R Series 12 mm incremental rotary encoder (PEC11R-4220F-S0024) :
 
 Sigrok, PulseView softwares, all cross-platform : https://sigrok.org :clap:
 
-Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel : https://www.elektor.fr/products/logic-analyzers-in-practice-e-book :ok_hand:
+Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :
+* https://www.elektor.fr/products/logic-analyzers-in-practice-e-book :ok_hand:
 
 
 > [!NOTE]
