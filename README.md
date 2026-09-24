@@ -28,6 +28,8 @@ Other useful plugins for KiCad :
 * Board2Pdf : https://gitlab.com/dennevi/Board2Pdf
 * Solarized Dark Theme : https://github.com/pointhi/kicad-color-schemes
 
+Get a unique 10€ coupon code in <ins>your first order</ins> in [AISLER](https://aisler.net) with my referral code : `MakeInEurope-ECYPW` :heart:
+
 The shell script to easily generate panels (in [kicad](kicad/) folder)… :laughing:
 
 ```shell
