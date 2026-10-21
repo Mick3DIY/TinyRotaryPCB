@@ -14,11 +14,11 @@ As part of an educational project, the schematic and PCB are made with [KiCad](h
 
 The TinyRotaryPCB itself with the rotary encoder (in reverse side for panel mount), dimensions (mm) :
 
-![Single TinyRotaryPCB](assets/TinyRotaryPCB_2026-08-06_single.png)
+![Single TinyRotaryPCB](assets/TinyRotaryPCB_single.png)
 
 The panelization option (2x2 boards with stencil) was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit), dimensions (mm) in [kicad/panel](kicad/panel/) folder :
 
-![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_2026-08-06_panel_2x2.png)
+![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_panel_2x2.png)
 
 Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
 
@@ -117,6 +117,6 @@ Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel :
 
 
 > [!NOTE]
-> Big thanks to the open-source, [KiCad](https://www.kicad.org) and plugins communities. :heart:
+> Big thanks to the open-source, [KiCad](https://www.kicad.org), [KiKit](https://github.com/yaqwsx/KiKit) and plugins communities. :heart:
 
 Happy soldering & have fun ! :partying_face:
