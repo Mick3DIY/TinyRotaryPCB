@@ -16,13 +16,15 @@ The TinyRotaryPCB itself with the rotary encoder (in reverse side for panel moun
 
 ![Single TinyRotaryPCB](assets/TinyRotaryPCB_single.png)
 
-The panelization option (2x2 boards with stencil) was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit), dimensions (mm) in [kicad/panel](kicad/panel/) folder :
+The panelization option (2x2 boards as separate project) was generated with the KiCad plugin [KiKit](https://github.com/yaqwsx/KiKit), dimensions (mm) in [kicad/panel](kicad/panel/) folder :
 
 ![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_panel_2x2.png)
 
 If you want a quick and affordable manufacturer for your next electronic project, get a unique 10€ coupon code in <ins>your first order</ins> in [AISLER](https://aisler.net) with my referral code : `MakeInEurope-ECYPW` :heart:
 
 Big thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
+
+## Code :
 
 The shell script to easily generate panels (in [kicad](kicad/) folder)… :laughing:
 
@@ -102,6 +104,7 @@ Here an example with the same schematic (pins A, B, SW) in [Sigrok](https://sigr
 - [x] Add PDF files for the schematic, PCBs (single, panelization)
 - [x] Add a screenshot from the logic analyser [Sigrok](https://sigrok.org)
 - [x] Add link to the Elektor Ebook "Logic Analyzers in Practice" from Jörg Rippel
+- [ ] Add picture of the PCB boards from AISLER
 - [ ] Add more files and examples, any ideas ? :laughing:
 
 ## Documentation :
