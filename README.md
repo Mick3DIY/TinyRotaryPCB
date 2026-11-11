@@ -20,9 +20,9 @@ The panelization option (2x2 boards with stencil) was generated with the KiCad p
 
 ![Panelization TinyRotaryPCB](assets/TinyRotaryPCB_panel_2x2.png)
 
-Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
+If you want a quick and affordable manufacturer for your next electronic project, get a unique 10€ coupon code in <ins>your first order</ins> in [AISLER](https://aisler.net) with my referral code : `MakeInEurope-ECYPW` :heart:
 
-Get a unique 10€ coupon code in <ins>your first order</ins> in [AISLER](https://aisler.net) with my referral code : `MakeInEurope-ECYPW` :heart:
+Big thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
 
 The shell script to easily generate panels (in [kicad](kicad/) folder)… :laughing:
 
